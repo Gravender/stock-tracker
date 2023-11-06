@@ -238,7 +238,11 @@ function Avatar({
       {...props}
     >
       <Image
-        src={""}
+        src={
+          "https://fastly.picsum.photos/id/251/536/354.jpg?hmac=KhDUHBrHQSRJYTMoWlVdRR8y3ZhdEKtx4bsBxrEP3SA"
+        }
+        width={large ? 64 : 36}
+        height={large ? 64 : 36}
         alt=""
         sizes={large ? "4rem" : "2.25rem"}
         className={clsx(
